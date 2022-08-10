@@ -1,0 +1,105 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/*.display: none;*/
+ 
+
+.hidden {
+ display: none;
+}
+
+html {
+  background: url(../img/purpleFloat.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: white;
+}
+
+h1, h2{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  font-family: monospace;
+}
+
+main {
+}
+
+/* stretch pop ups */
+
+#outer{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#inner{
+  width: 75%;
+  height: 50%;
+  top: 25%;
+  margin: 0 auto;
+  position: relative;
+  background:rgb(89, 159, 89);
+}
+
+
+
+/* display images */
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -moz-box-shadow: 10px 10px 16px #000000;
+  -webkit-box-shadow: 10px 10px 16px #000000;
+  box-shadow: 10px 10px 16px #000000;
+  x-shadow: 10px 10px 16px #000000;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
