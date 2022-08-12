@@ -89,7 +89,7 @@ button {
 }
 
 .container {
-  width: 60%;
+  width: 67%;
   margin: 0 auto 2% auto;
   padding: 10px;
   
@@ -129,9 +129,10 @@ img {
   }
   .container{
     max-width: 80%;
-    margin: 0 auto 2% auto;
+    margin: 0 auto;
     padding: 10px;
   }
+
 }
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
 @media (min-width:481px)  {  }
