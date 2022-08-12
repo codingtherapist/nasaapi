@@ -42,7 +42,8 @@ html {
   }
 
   p {
-
+    font-size: 14px;
+    font-size: 1.8rem;
   }
 
 .hidden {
@@ -78,7 +79,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: ;
   font-family: monospace;
 }
 
@@ -104,7 +105,7 @@ button {
 
 /* display images */
 img {
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
   border-radius: 50%;
   -webkit-background-size: cover;
@@ -114,7 +115,6 @@ img {
   -moz-box-shadow: 10px 10px 16px #000000;
   -webkit-box-shadow: 10px 10px 16px #000000;
   box-shadow: 10px 10px 16px #000000;
-  x-shadow: 10px 10px 16px #000000;
 }
 /******************************************
 /* ADDITIONAL STYLES
@@ -138,3 +138,10 @@ img {
 /* hi-res laptops and desktops 
 @media (min-width:1281px) { }*/
 
+/*
+Alternategait says:@media screen and (max-width: 400px){
+  #s1, #s2, #s3, header, footer{
+    flex: 1 100%;
+    text-align: center;
+  }
+} /*
