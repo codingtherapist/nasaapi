@@ -89,9 +89,8 @@ button {
 
 .container {
   width: 55%;
-  margin: 0 auto 2% auto;
   padding: 10px;
-  
+  margin: 2% auto 1% auto;
   border-radius: 15px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -137,10 +136,7 @@ img {
   display: none !important;
 }
 
-.top{
-  width: 80%;
-  margin: 2% auto 1% auto;
-}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
