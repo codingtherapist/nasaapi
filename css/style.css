@@ -83,10 +83,16 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: ;
-  font-family: monospace;
+  background-color: white;
+  border-radius: 8px;
+  border: solid 2px pink;
+  transition-duration: 0.4s;
 }
 
+button:hover {
+  background-color: #ea7eda; /* Green */
+  color: white;
+}
 .container {
   width: 55%;
   padding: 10px;
@@ -143,18 +149,22 @@ img {
 
 
 /* smartphones, iPhone, portrait 480x320 phones */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (min-device-width: 300px) and (max-width: 480px) {
+  html {
+    background-image: url(../img/mobile.gif)!important;
+  }
  img {
-     max-width: 75%;
+     max-width: 85%;
      height: auto;
   }
   .container{
-    max-width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 30 auto;
     padding: 10px;
   }
 
 }
+
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
 @media (min-width:481px)  {  }
 
